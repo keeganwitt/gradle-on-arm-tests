@@ -1,0 +1,8 @@
+arch: arm64
+
+language: bash
+
+services: docker
+
+script:
+  - docker build --tag gradle-on-arm .
